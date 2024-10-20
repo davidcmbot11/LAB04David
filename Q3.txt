@@ -1,0 +1,34 @@
+ —¿Cómo es que se instalan paquetes con yarn
+
+Para instalar paquetes con Yarn, se utiliza el siguiente comando:
+=> yarn add <nombre_del_paquete>
+EJEMPLO:
+=> yarn add lodash
+
+¿Cómo es que se borran paquetes con yarn? 
+
+
+Para borrar paquetes con Yarn, se utiliza el siguiente comando:
+=> yarn remove <nombre_del_paquete>
+EJEMPLO: 
+=>  yarn remove lodash
+
+
+¿Hay algún equivalente en yarn que haga lo mismo que npm init
+
+Yarn no tiene un comando específico como npm init. Sin embargo, puedes lograr el mismo resultado inicializando un nuevo proyecto con Yarn mediante el comando yarn init. Este comando crea un archivo package.json similar al que crea npm init, pero con un formato ligeramente diferente.
+
+=> yarn init 
+
+Este comando te guiará a través de una serie de preguntas interactivas para configurar el archivo package.json de tu proyecto de manera similar a npm init.
+
+EJEMPLO:
+
+{
+  "name": "applab",
+  "version": "1.0.0",
+  "description": "Laboratorio03 pregunta3",
+  "main": "index.js",
+  "author": "Vicky",
+  "license": "MIT"
+}
